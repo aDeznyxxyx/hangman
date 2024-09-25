@@ -1,0 +1,14 @@
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\bin\Debug\net8.0\HangmanGame.exe
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\bin\Debug\net8.0\HangmanGame.deps.json
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\bin\Debug\net8.0\HangmanGame.runtimeconfig.json
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\bin\Debug\net8.0\HangmanGame.dll
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\bin\Debug\net8.0\HangmanGame.pdb
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\obj\Debug\net8.0\HangmanGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\obj\Debug\net8.0\HangmanGame.AssemblyInfoInputs.cache
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\obj\Debug\net8.0\HangmanGame.AssemblyInfo.cs
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\obj\Debug\net8.0\HangmanGame.csproj.CoreCompileInputs.cache
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\obj\Debug\net8.0\HangmanGame.dll
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\obj\Debug\net8.0\refint\HangmanGame.dll
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\obj\Debug\net8.0\HangmanGame.pdb
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\obj\Debug\net8.0\HangmanGame.genruntimeconfig.cache
+C:\Users\Charlie Jooste\RiderProjects\Hangman\HangmanGame\obj\Debug\net8.0\ref\HangmanGame.dll
