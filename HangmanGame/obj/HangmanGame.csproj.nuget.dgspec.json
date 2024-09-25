@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Charlie Jooste\\RiderProjects\\Hangman\\HangmanGame\\HangmanGame.csproj": {}
+    "C:\\Users\\April\\OneDrive\\文档\\GitHub\\hangman\\HangmanGame\\HangmanGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Charlie Jooste\\RiderProjects\\Hangman\\HangmanGame\\HangmanGame.csproj": {
+    "C:\\Users\\April\\OneDrive\\文档\\GitHub\\hangman\\HangmanGame\\HangmanGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Charlie Jooste\\RiderProjects\\Hangman\\HangmanGame\\HangmanGame.csproj",
+        "projectUniqueName": "C:\\Users\\April\\OneDrive\\文档\\GitHub\\hangman\\HangmanGame\\HangmanGame.csproj",
         "projectName": "HangmanGame",
-        "projectPath": "C:\\Users\\Charlie Jooste\\RiderProjects\\Hangman\\HangmanGame\\HangmanGame.csproj",
-        "packagesPath": "C:\\Users\\Charlie Jooste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Charlie Jooste\\RiderProjects\\Hangman\\HangmanGame\\obj\\",
+        "projectPath": "C:\\Users\\April\\OneDrive\\文档\\GitHub\\hangman\\HangmanGame\\HangmanGame.csproj",
+        "packagesPath": "C:\\Users\\April\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\April\\OneDrive\\文档\\GitHub\\hangman\\HangmanGame\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Charlie Jooste\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\April\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -36,7 +43,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

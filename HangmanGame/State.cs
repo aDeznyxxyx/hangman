@@ -3,26 +3,26 @@
 public class State
 {
     private readonly string[] Words;
-    
+
     private readonly string _currentWord;
     private List<char> _guessedLetters;
     private int _lives;
-    
+
     public State(string[] words)
     {
         Words = words;
         _currentWord = Words[Random.Shared.Next(0, Words.Length)];
         _guessedLetters = [];
-        
+
         _lives = 5;
     }
-    
+
     public void Draw()
     {
-            string[] hangmenIterations =
-            [
+        string[] hangmenIterations =
+        [
 
-                @"
+            @"
 
              --------
 
@@ -148,13 +148,13 @@ public class State
 
              "
 
-            ];
+        ];
 
- 
 
- 
 
-            string hangman = @"
+
+
+        string hangman = @"
 
              --------
 
@@ -172,31 +172,36 @@ public class State
 
              ";
 
-            var picture = hangmenIterations[_lives];
-            Console.WriteLine(picture);
+        Console.Clear();
 
-            foreach (char letter in _currentWord)
+        var picture = hangmenIterations[_lives];
+        Console.WriteLine(picture);
+
+        foreach (char letter in _currentWord)
+        {
+            if (!_guessedLetters.Contains(letter))
             {
-                if (!_guessedLetters.Contains(letter))
-                {
-                    Console.Write("_");
-                    
-                }
-                else
-                {
-                    Console.Write(letter);
-                                    }
-            }
-            
-            Console.WriteLine();
-    }
+                Console.Write("_");
 
+            }
+            else
+            {
+                Console.Write(letter);
+            }
+        }
+
+        Console.WriteLine();
+    }
+    public void welcome_screen()
+    {
+        string GREEN = Console.IsOutputRedirected ? "" : "\x1b[92m";
+        Console.WriteLine($"{GREEN}Welcome to hangman.");
+        Console.ResetColor();
+    }
     public void Process()
     {
         Console.WriteLine("Enter your guess: ");
-        
         var playerInput = Console.ReadLine()!.ToLower();
-
         if (playerInput.Length != 1)
         {
             Console.WriteLine("Please only write 1 letter");
@@ -214,19 +219,20 @@ public class State
         }
 
         bool valid = false;
-        
+
         for (int i = 0; i < _currentWord.Length; i++)
         {
             if (input == _currentWord[i])
             {
-                valid= true;
+                valid = true;
                 break;
             }
         }
-        
+
         if (!valid)
         {
             _lives--;
+
         }
 
         _guessedLetters.Add(input);
@@ -237,13 +243,14 @@ public class State
             Console.WriteLine("Game Over");
             Console.WriteLine($"The word was");
             Console.WriteLine(_currentWord);
-        } 
+        }
         else if (HasWon())
         {
             Console.WriteLine("You won!");
         }
         else
         {
+
             Process();
         }
     }
